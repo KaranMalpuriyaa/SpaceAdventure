@@ -72,7 +72,7 @@ public class AdManager : MonoBehaviour {
 
     public void RequestInterstitial () {
 
-        string adUnitId = "ca-app-pub-4388574330522893/7231807933";
+        string adUnitId = "ca-app-pub-3940256099942544/1033173712";
         // Clean up interstitial ad before creating a new one.
         if(this.interstitial != null)
             this.interstitial.Destroy ();
@@ -94,7 +94,7 @@ public class AdManager : MonoBehaviour {
     }
 
     public void RequestRewardBasedVideo () {
-        string adUnitId = "ca-app-pub-4388574330522893/7444433060";
+        string adUnitId = "ca-app-pub-3940256099942544/5224354917";
 
         this.rewardBasedVideo.LoadAd (this.CreateAdRequest (), adUnitId);
     }
